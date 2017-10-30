@@ -199,9 +199,10 @@ footer {
 	text-align: center;
 	margin: 21px 5px;
 	display: inline-block;
-	background-image: url(../img/social.png);
+	/*background-image: url(../img/social.png);*/
 	width: 32px;
 	height: 32px;
+	border-radius: 10px;
 }
 
 .soc {
@@ -210,18 +211,23 @@ footer {
 	margin: 0 auto;
 }
 
-.DL {
-background-position: left;
+.SK {
+	background-image: url(../img/skype32.png);
+
 }
-.TW {
-	background-position: 25%;
+.VB {
+	background-image: url(../img/viber32.png);
+	
 }
 .FB {
+	background-image: url(../img/social.png);
 	background-position: center;
 }
 .FL {
+	background-image: url(../img/social.png);
 	background-position: 75%;
 }
 .YT {
+	background-image: url(../img/social.png);
 	background-position: right;
 }
