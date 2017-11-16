@@ -274,7 +274,7 @@ h2 {
 	color: #a8aabc;
 }
 
-.try input[type=text], input[type=password] {
+.try input[type=text], input[type=password], input[type=email] {
 	text-transform: uppercase;
 	background-color: #464c77;
 	padding: 15px 30px;
@@ -295,8 +295,8 @@ p.day30 {
 }
 
 .try img {
-position: absolute;
-margin-left: -30px;
+	position: absolute;
+	margin-left: -30px;
 }
 
 input[type=submit] {
@@ -326,6 +326,120 @@ input[type=password]::-webkit-input-placeholder {
 input[type=password]::-moz-placeholder {
 	color: #fff;
 }
+input[type=email]::-webkit-input-placeholder {
+	color: #fff;
+} 
+input[type=email]::-moz-placeholder {
+	color: #fff;
+}
+
+footer {
+	padding:100px 300px 0 180px; 
+	height: 230px;
+	background-image: linear-gradient(225deg,#fb8686 0%, #fb8686 19%,#fff 19%, #fff 100% );
+	font-size: 14px;
+	color: #717171;
+	font-family: 'Exo', arial, sans-serif;
+	line-height: 2;
+}
+
+footer a {
+	text-decoration: none;
+	color: #717171;
+}
+
+footer h1 {
+	font-size: 22px;
+	color: #000;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.fut {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-right: 60px;
+}
+
+.sup {
+	margin-right: 100px;
+}
+
+.fut input {
+	margin: 0;
+	padding: 0;
+	padding: 15px 0 15px 30px;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 1px solid #b8b8bf;
+	height: 17px;
+	width: 180px;
+
+}
+
+.fut input[type=email]::-webkit-input-placeholder {
+	color:  #717171;
+} 
+.fut input[type=email]::-moz-placeholder {
+	color:  #717171;
+}
 
 
+button {
+	height: 49px;
+	width: 49px;
+	background-color: #fb8686;
+	border: none;	
+	vertical-align: top;
+	margin-left: -10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0, 0.5) ; ;	
+	margin-bottom: 20px;
+}
+
+.social {
+	display: inline-block;
+	height: 21px;
+	width: 21px;
+	background-image: url(../img/Soc_Icon.png);
+	text-align: center;
+	margin: 0 10px 0 0;
+}
+
+
+.soc {
+	text-align: center;
+}
+
+.soc a {
+	margin: 0;	
+	padding: 0;	
+	width: 21px;	
+	height: 21px;	
+}
+
+.s1 {
+	background-position: 0 0;
+}
+.s2 {
+	background-position: 30% 0;
+}
+.s3 {
+	background-position: 65% 0;
+}
+.s4 {
+	background-position: 100% 0;
+}
+
+.fut span {
+	padding: 15px 10px 15px 4px;
+	background-image: url(../img/Polygon.png);
+	-webkit-background-size: 80%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: visible;
+	background-position: 0 50%;
+	color: #fff;
+}
 
