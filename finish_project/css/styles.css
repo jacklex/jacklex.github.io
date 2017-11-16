@@ -106,6 +106,7 @@ h2 {
 .some {
 	box-sizing: border-box;
 	display: inline-block;
+	vertical-align: top;
 	width: 33%;
 	padding: 30px 0;
 	
@@ -141,18 +142,190 @@ h2 {
 	padding-top: 100px;
 	padding-right: 50px;
 	padding-left: 70px;
- }
+}
 
- .new_design1 div {
- 	padding-top: 150px;
- }
+.new_design1 div {
+	padding-top: 150px;
+}
 
- .new_design1 h2 {
- 	margin-bottom: 20px;
- }
+.new_design1 h2 {
+	margin-bottom: 20px;
+}
 
- .new_design1 h1 {
- 	margin-bottom: 40px;
- 	font-weight: bold;
- 	letter-spacing: 3px;
- }
+.new_design1 h1 {
+	margin-bottom: 40px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.clients {
+	height: 538px;
+	background-image: url(../img/BGclient.png);
+	padding: 110px 135px 0 135px;
+	text-align: center;
+	font-family: 'Exo', arial, sans-serif;
+}
+
+.client {
+	display: inline-block;
+	vertical-align: top;
+	width: 27%;
+	box-sizing: border-box;
+	margin: 0 30px;
+
+
+}
+
+.client h2 {
+	text-transform: capitalize;
+	font-size: 16px;
+	padding-bottom: 30px;
+	letter-spacing: 0.5px;
+}
+
+.client img {
+	margin-bottom: 20px;
+	border:1px solid #000;
+}
+
+.client h1 {
+	color: #fff;
+	margin-bottom: 10px;
+	font-size: 22px;
+
+}
+.client p {
+	color: #b4b4b6;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.logos {
+	height: 85px;
+	width: 152px;
+	background-image: url(../img/Logos.png);
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 70px 20px 20px;
+}
+
+.c1 {
+	background-position: 0 0;
+}
+.c2 {
+	background-position: 25% 0;
+}
+.c3 {
+	background-position: 50% 0;
+}
+.c4 {
+	background-position: 75% 0;
+}
+.c5 {
+	background-position: 100% 0;
+}
+
+.brows {
+	height: 645px;
+	padding:110px 400px 0 400px;
+	background-color: #f6f5f3;
+	background-image: url(../img/1.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: 'Exo', arial, sans-serif;
+}
+
+.brows h2 {
+	margin-bottom: 20px;
+}
+
+.brows h1 {
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 50px;
+	letter-spacing: 3px;
+}
+
+.brows p {
+	line-height: 1.5;
+	font-weight: bold;
+	color: #717171
+}
+
+.try {
+	height: 367px;
+	padding-top: 100px;
+	background-color: #323969;
+	text-align: center;
+	color: #fff;
+	font-family: 'Exo', arial, sans-serif;
+}
+
+.try h1 {
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.try p, a {
+	margin-top: 50px;
+	color: #a8aabc;
+}
+
+.try input[type=text], input[type=password] {
+	text-transform: uppercase;
+	background-color: #464c77;
+	padding: 15px 30px;
+	font-size: 16px;
+	color: #fff;	
+	border-radius: 5px;
+	margin: 40px 15px 0 15px;	
+	border: 1px solid #fff;
+	font-family: 'Exo', arial, sans-serif;
+
+}
+
+p.day30 {
+	position: relative;
+	text-align: right;
+	color: #fff;
+	margin-right: 210px;
+}
+
+.try img {
+position: absolute;
+margin-left: -30px;
+}
+
+input[type=submit] {
+	background-color: #ff6d6d;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px #000;
+	height: 50px;
+	width: 260px;
+	margin-left: 20px;
+	border:none;
+	font-size: 16px;
+	font-family: 'Exo', arial, sans-serif;
+}
+
+input[type=text]::-webkit-input-placeholder {
+	color: #fff;
+
+} 
+input[type=text]::-moz-placeholder {
+	color: #fff;
+}
+input[type=password]::-webkit-input-placeholder {
+	color: #fff;
+} 
+input[type=password]::-moz-placeholder {
+	color: #fff;
+}
+
+
+
