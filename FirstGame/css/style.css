@@ -1,0 +1,98 @@
+html {
+	background-image: url(../img/grey.jpg);
+	background-size: 100%;
+
+}
+.left_row {
+	float: left;
+	width: 25%;
+}
+
+section {
+	float: left;
+	width: 50%;
+}
+
+
+.createField {
+	margin-left: 150px;
+	margin-top: 170px;
+	width: 200px;
+	border-radius:0 0 10px 10px;
+	text-align: center;
+	background-image: url(../img/bg_menu.jpg);
+	background-position: center;
+}
+
+.createField p {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+span {
+	color: red;
+}
+
+.changeBoard {
+	margin-top: 50px;
+	margin-left: 150px;
+	width: 200px;
+	text-align: center;
+	border-radius:0 0 10px 10px;
+	background-image: url(../img/bg_menu.jpg);
+	background-position: bottom center;
+}
+
+
+
+input, button {
+	margin: 5px;
+}
+
+
+.field {
+	margin: 37px auto;
+	width: 0px;
+	height: 0px;
+	text-align: center;
+}
+
+.card {
+	margin: 5px;
+	width: 121px;
+	height: 159px;
+	
+	border-radius: 10px;
+}
+
+.timer {
+	margin: 10px auto;
+	text-align: center;
+	width: 200px;
+	background-image: url(../img/bg_time.jpg);
+	background-position: bottom center;
+	border-radius: 10px;
+}
+
+.timer h1 {
+	margin: 5px;
+	padding: 5px;
+	font-size: 26px;
+}
+
+.timer p {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	padding-bottom: : 15px;
+	margin-bottom: 10px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+
+

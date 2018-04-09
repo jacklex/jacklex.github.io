@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+	
+		<div class="timer">
+		<h1>Таймер</h1>
+		<p class="time">00:00:00</p>
+		</div>
+		
+		<div class="left_row">
+				
+				<form action="" class="createField">
+				<p>Укажите высоту и ширину игрового поля. <br><strong>Хотя бы 1 значение должно быть четным</strong><br><span>Max 24 карты</span></p>
+				<input type="text" id="col" placeholder="ширина (кол-во карт)"><br>
+				<input type="text" id="line" placeholder="высота (кол-во карт)"><br>
+				<button onclick="createField(); return false;">Создать поле</button>
+			</form>
+
+			<form action="" class="changeBoard">
+			  <input type="radio" name="pole" value="grey">Серый<Br>
+			  <input type="radio" name="pole" value="green">Зеленый<Br>
+			  <input type="radio" name="pole" value="yellow">Желтый<Br>
+			  <button onclick="changeBoard(); return false;">Сменить фон</button>
+			</form>
+
+		</div>
+
+	<section>
+			
+			<div class="field">
+			</div>
+		
+	</section>
+
+		<div class="right_row">
+			
+			
+
+		</div>
+	
+	</div>
+</body>
+</html>
+
